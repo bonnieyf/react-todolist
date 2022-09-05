@@ -312,6 +312,39 @@ nav ul a span {
   width: 800px;
 }
 
+.notfoundPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+
+  h3{
+    font-size: 50px;
+  }
+
+  a{
+    text-decoration: underline !important;
+  }
+  
+
+  .empty{
+    width: 100%;
+    
+    img{
+      margin: 30px 0 50px;
+      width: 300px;
+    }
+  }
+}
+
 @media (max-width: 576px) {
   .loginPage {
     width: 100%;
